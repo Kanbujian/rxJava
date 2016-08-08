@@ -5,6 +5,7 @@ import rx.Observable;
 import rx.functions.Action1;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -21,6 +22,8 @@ public class HelloRxJava {
 
         System.out.println("开始设置订阅");
         sayHello(list);
+
+
 
         System.out.println("设置订阅完毕");
         //
